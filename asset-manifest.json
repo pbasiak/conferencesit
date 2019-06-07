@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/conferencesit/static/css/main.2cce8147.chunk.css",
+    "main.js": "/conferencesit/static/js/main.29eabf7b.chunk.js",
+    "main.js.map": "/conferencesit/static/js/main.29eabf7b.chunk.js.map",
+    "runtime~main.js": "/conferencesit/static/js/runtime~main.b0c4be47.js",
+    "runtime~main.js.map": "/conferencesit/static/js/runtime~main.b0c4be47.js.map",
+    "static/js/2.b41502e9.chunk.js": "/conferencesit/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/conferencesit/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/conferencesit/index.html",
+    "precache-manifest.3d5ebc33cf4a8046360be28393128391.js": "/conferencesit/precache-manifest.3d5ebc33cf4a8046360be28393128391.js",
+    "service-worker.js": "/conferencesit/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/conferencesit/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/conferencesit/static/media/logo.5d5d9eef.svg"
+  }
+}
