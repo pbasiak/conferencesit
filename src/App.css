@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -30,4 +29,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background: url('./assets/bg.png') no-repeat;
+  background-position: 250% top;
 }
