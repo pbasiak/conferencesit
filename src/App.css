@@ -1,4 +1,6 @@
 body {
   background: url('./assets/bg.png') no-repeat;
   background-position: 250% top;
+  background-color: #f4f4f4;
+  font-family: 'Roboto', sans-serif;
 }
