@@ -4,7 +4,7 @@ export const SConferencesSearchInput = styled.input`
     width: 570px;
     height: 75px;
     line-height: 75px;
-    border-radius: 20px;
+    border-radius: 50px;
     border: 0;
     box-shadow: 0 25px 25px rgba(0, 0, 0, 0.07);
     margin-bottom: 50px;

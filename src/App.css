@@ -1,6 +1,6 @@
 body {
   background: url('./assets/bg.png') no-repeat;
-  background-position: 250% top;
+  background-position: calc(50% + 850px) top;
   background-color: #f4f4f4;
   font-family: 'Roboto', sans-serif;
 }
