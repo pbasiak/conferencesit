@@ -3,6 +3,7 @@ import {conferencesList} from '../../conferences';
 import ConferencesItem from '../Conferences/ConferencesItem';
 import { SContent } from './styled/SContent';
 import ConferencesSearch from '../Conferences/ConferencesSearch';
+import { SConferencesMap } from '../Conferences/styled/SConferencesMap';
 
 class Content extends Component {
 
@@ -38,6 +39,8 @@ class Content extends Component {
             <SContent>
                 <ConferencesSearch onChange={this.filterConferences}/>
                 {conferences}
+
+                <SConferencesMap/>
             </SContent>
         );
     }
