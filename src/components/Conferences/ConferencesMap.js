@@ -1,29 +1,24 @@
 import React, { Component } from 'react';
 import { Map, TileLayer, Marker, Popup } from '../../../node_modules/react-leaflet';
+import {conferencesList} from '../../conferences';
 
 class ConferencesMap extends Component {
-    constructor() {
-        super()
-        this.state = {
-            lat: 51.505,
-            lng: -0.09,
-            zoom: 13
-        }
-    }
-
     render() {
-        const position = [this.state.lat, this.state.lng];
+        const defaultPosition = {
+            lat: 51.50853,
+            lng: -0.12574,
+            zoom: 3,
+        }
+        const defaultCenter = [defaultPosition.lat, defaultPosition.lng];
+        
+
         return (
-            <Map center={position} zoom={this.state.zoom}>
+            <Map center={defaultCenter} zoom={defaultPosition.zoom}>
                 <TileLayer
                     attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-                <Marker position={position}>
-                    <Popup>
-                        A pretty CSS3 popup. <br /> Easily customizable.
-                    </Popup>
-                </Marker>
+                {this.props.markers}
             </Map>
         );
     }

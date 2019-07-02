@@ -9,3 +9,11 @@ body {
   height: 400px;
   width: 100%;
 }
+
+.leaflet-container img {
+  filter: grayscale(100%);
+}
+
+.leaflet-container .leaflet-marker-icon {
+  filter: grayscale(0);
+}

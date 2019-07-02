@@ -7,7 +7,7 @@ class ConferencesItem extends Component {
         return (
             <SConferencesItem>
                 <SConferencesName>{this.props.name}</SConferencesName>
-                {this.props.date}
+                {this.props.startDate}
             </SConferencesItem>
         );
     }
