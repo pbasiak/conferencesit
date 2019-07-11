@@ -8,6 +8,7 @@ body {
 .leaflet-container {
   height: 400px;
   width: 100%;
+  max-width: 600px;
 }
 
 .leaflet-container img {

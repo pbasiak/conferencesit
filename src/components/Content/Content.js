@@ -5,6 +5,7 @@ import { SContent } from './styled/SContent';
 import ConferencesSearch from '../Conferences/ConferencesSearch';
 import { SConferencesMap } from '../Conferences/styled/SConferencesMap';
 import { Marker, Popup } from '../../../node_modules/react-leaflet';
+import { Flex } from '../Flex';
 
 class Content extends Component {
 
@@ -53,9 +54,13 @@ class Content extends Component {
         return (
             <SContent>
                 <ConferencesSearch onChange={this.filterConferences}/>
-                {conferences}
+                <Flex>
+                    <div>
+                        {conferences}
+                    </div>
 
-                <SConferencesMap markers={markers}/>
+                    <SConferencesMap markers={markers} />
+                </Flex>
             </SContent>
         );
     }
