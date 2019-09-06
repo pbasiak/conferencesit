@@ -5,10 +5,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .leaflet-container {
   height: 400px;
   width: 100%;
   max-width: 600px;
+  margin-bottom: 30px;
+  border-radius: 6px;
 }
 
 .leaflet-container img {
