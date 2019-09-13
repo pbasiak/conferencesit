@@ -1,24 +1,22 @@
 import React, { Component } from 'react';
 import { SConferencesItem } from './styled/SConferencesItem';
 import { SConferencesName } from './styled/SConferencesName';
-import { Flex } from '../Flex';
-import { Hr } from '../Hr';
 import { SConferencesLabel } from './styled/SConferencesLabel';
 import { SConferencesSingleData } from './styled/SConferencesSingleData';
-import { Button } from '../Button';
+import { Box, Button, Divider } from '@material-ui/core';
 
 class ConferencesItem extends Component {
     render() { 
         return (
             <SConferencesItem>
-                <Flex justifyContent="flex-start" alignItems="center">
+                <Box display="flex" justifyContent="flex-start" alignItems="center" mb="15px">
                     <SConferencesName>{this.props.name}</SConferencesName>
                     <small>{this.props.startDate}</small>
-                </Flex>
-                <Hr color="#EAEAEA" size="1"/>
-                <Flex justifyContent="flex-start">
+                </Box>
+                <Divider/>
+                <Box display="flex" justifyContent="flex-start" mb="20px" mt="15px">
                     <SConferencesSingleData>
-                        <SConferencesLabel>Country:</SConferencesLabel>
+                        <SConferencesLabel>Country / Region:</SConferencesLabel>
                         {this.props.country}
                     </SConferencesSingleData>
                     <SConferencesSingleData>
@@ -29,10 +27,10 @@ class ConferencesItem extends Component {
                         <SConferencesLabel>Category:</SConferencesLabel>
                         {this.props.category}
                     </SConferencesSingleData>
-                </Flex>
-                <Flex justifyContent="flex-end">
-                    <Button href={this.props.url} target="_blank">Official site</Button>
-                </Flex>
+                </Box>
+                <Box display="flex" justifyContent="flex-end">
+                    <Button color="primary" variant="contained" href={this.props.url} target="_blank">Official site</Button>
+                </Box>
             </SConferencesItem>
         );
     }

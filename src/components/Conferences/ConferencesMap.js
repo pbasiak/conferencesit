@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Map, TileLayer, Marker, Popup } from '../../../node_modules/react-leaflet';
-import {conferencesList} from '../../conferences';
+import { Map, TileLayer } from '../../../node_modules/react-leaflet';
 
 class ConferencesMap extends Component {
     render() {
@@ -9,8 +8,7 @@ class ConferencesMap extends Component {
             lng: -0.12574,
             zoom: 3,
         }
-        const defaultCenter = [defaultPosition.lat, defaultPosition.lng];
-        
+        const defaultCenter = [defaultPosition.lat, defaultPosition.lng];   
 
         return (
             <Map center={defaultCenter} zoom={defaultPosition.zoom}>
