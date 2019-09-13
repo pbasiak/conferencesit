@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4c826966537a05e1dc58b98c507ac43",
+    "revision": "8e5a83ae79e94210351235810e75e530",
     "url": "/conferencesit/index.html"
   },
   {
-    "revision": "ce9e718f9ae5fd80e42b",
+    "revision": "7c3e435fd0c8fa42f35b",
     "url": "/conferencesit/static/css/main.b87c3300.chunk.css"
   },
   {
-    "revision": "7dfd4bbd18329e18954a",
-    "url": "/conferencesit/static/js/2.3e53c0c1.chunk.js"
+    "revision": "4869f4b9c5370bc92fb7",
+    "url": "/conferencesit/static/js/2.510a6556.chunk.js"
   },
   {
-    "revision": "ce9e718f9ae5fd80e42b",
-    "url": "/conferencesit/static/js/main.0ee5edbd.chunk.js"
+    "revision": "7c3e435fd0c8fa42f35b",
+    "url": "/conferencesit/static/js/main.bbf9b644.chunk.js"
   },
   {
     "revision": "af68242237fad890ad57",
@@ -26,9 +26,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "405191c81ce76b446a5b82a59258248c",
     "url": "/conferencesit/static/media/logo.405191c8.svg"
-  },
-  {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/conferencesit/static/media/logo.5d5d9eef.svg"
   }
 ]);

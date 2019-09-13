@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/conferencesit/static/css/main.b87c3300.chunk.css",
-    "main.js": "/conferencesit/static/js/main.0ee5edbd.chunk.js",
-    "main.js.map": "/conferencesit/static/js/main.0ee5edbd.chunk.js.map",
+    "main.js": "/conferencesit/static/js/main.bbf9b644.chunk.js",
+    "main.js.map": "/conferencesit/static/js/main.bbf9b644.chunk.js.map",
     "runtime~main.js": "/conferencesit/static/js/runtime~main.b0c4be47.js",
     "runtime~main.js.map": "/conferencesit/static/js/runtime~main.b0c4be47.js.map",
-    "static/js/2.3e53c0c1.chunk.js": "/conferencesit/static/js/2.3e53c0c1.chunk.js",
-    "static/js/2.3e53c0c1.chunk.js.map": "/conferencesit/static/js/2.3e53c0c1.chunk.js.map",
+    "static/js/2.510a6556.chunk.js": "/conferencesit/static/js/2.510a6556.chunk.js",
+    "static/js/2.510a6556.chunk.js.map": "/conferencesit/static/js/2.510a6556.chunk.js.map",
     "index.html": "/conferencesit/index.html",
-    "precache-manifest.51efb92372d13e39b8383bf01e7aa842.js": "/conferencesit/precache-manifest.51efb92372d13e39b8383bf01e7aa842.js",
+    "precache-manifest.d6952d595faa478d9a1f76b08d2d954f.js": "/conferencesit/precache-manifest.d6952d595faa478d9a1f76b08d2d954f.js",
     "service-worker.js": "/conferencesit/service-worker.js",
     "static/css/main.b87c3300.chunk.css.map": "/conferencesit/static/css/main.b87c3300.chunk.css.map",
     "static/media/App.css": "/conferencesit/static/media/bg.e5242d4c.png",
-    "static/media/logo.svg": "/conferencesit/static/media/logo.5d5d9eef.svg"
+    "static/media/logo.svg": "/conferencesit/static/media/logo.405191c8.svg"
   }
 }
